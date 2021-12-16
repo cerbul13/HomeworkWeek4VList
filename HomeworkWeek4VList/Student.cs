@@ -10,8 +10,8 @@ namespace HomeworkWeek4VList
     {
         private int age;
         private string name;
-        public const int MIN_AGE = 18;
-        public const int MAX_AGE = 99;
+        private const int MIN_AGE = 18;
+        private const int MAX_AGE = 99;
         private static List<Student> studentsList;
         public int Age
         {

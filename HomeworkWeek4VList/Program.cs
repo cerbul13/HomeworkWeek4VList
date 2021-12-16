@@ -6,7 +6,7 @@ namespace HomeworkWeek4VList
     {
         static void Main(string[] args)
         {
-            //students[0] = new Student();    //read from console for parameterless constructor
+            //Student st = new Student();    //read from console for parameterless constructor
             Student st0 = new Student(33, "Cosmin");
             Student st1 = new Student(41, "Dan");
             st1.ReadMark();
