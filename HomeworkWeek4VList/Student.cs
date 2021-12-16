@@ -41,8 +41,8 @@ namespace HomeworkWeek4VList
         {
             name = newname;
             Age = newage;
-            Console.WriteLine("Student adaugat cu succes. " + Info);
             studentsList.Add(this);
+            Console.WriteLine("Student adaugat cu succes. " + Info);            
         }
         public Student()
         {
@@ -50,8 +50,8 @@ namespace HomeworkWeek4VList
             name = Console.ReadLine();
             Console.Write("Introduceti varsta studentului {0}: ", name);
             age = int.Parse(Console.ReadLine());
-            Console.WriteLine("Student adaugat cu succes. " + Info);
             studentsList.Add(this);
+            Console.WriteLine("Student adaugat cu succes. " + Info);            
         }
         public void ReadMark()
         {
